@@ -1,0 +1,45 @@
+{
+    "name": "justoverclock/thread-read-time",
+    "description": "Add a read time progress bar to Flarum",
+    "keywords": [
+        "read time",
+        "progress bar"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Marco Colia",
+            "email": "info@flarum.it",
+            "role": "Developer"
+        }
+    ],
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.paypal.com/donate?hosted_button_id=25WSH565TJCLE"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justoverclock\\ThreadReadTime\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Read Time",
+            "category": "",
+            "icon": {
+                "name": "fas fa-book-reader",
+                "backgroundColor": "purple",
+                "color": "white"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+#progress-bar{
+  top: 0;
+  left: 0;
+  height: 8px;
+  background: linear-gradient(to right,  #ff5f6d, #ffc371);
+  width: 0%;
+  z-index: 100;
+  border-radius: 5px;
+}
+.contReadingTime {
+  margin-bottom: 25px;
+  padding: 2px;
+}
+.readTime{
+  color: @primary-color;
+}
+p#readPerc {
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Ubuntu,Cantarell,Oxygen,Roboto,Helvetica,Arial,sans-serif;
+}
+p#readPerc::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f5da";
+  margin-right: 5px;
+}
+@media only screen and (max-width: 768px) {.contReadingTime {display: none !important;}}

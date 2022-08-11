@@ -1,0 +1,44 @@
+{
+    "name": "nearata/flarum-ext-tags-color-generator",
+    "description": "Allows the generation of a random color for tags.",
+    "keywords": [
+        "flarum",
+        "tags",
+        "colors",
+        "random"
+    ],
+    "type": "flarum-extension",
+    "license": "Unlicense",
+    "support": {
+        "issues": "https://github.com/Nearata/flarum-ext-tags-color-generator/issues",
+        "source": "https://github.com/Nearata/flarum-ext-tags-color-generator",
+        "forum": "https://discuss.flarum.org/d/24644"
+    },
+    "require": {
+        "flarum/core": "^1.0.0",
+        "flarum/tags": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Nearata",
+            "email": "nearata@protonmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nearata\\TagsColorGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Tags Color Generator",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-random",
+                "backgroundColor": "#57bc7f",
+                "color": "#fff"
+            }
+        }
+    }
+}
